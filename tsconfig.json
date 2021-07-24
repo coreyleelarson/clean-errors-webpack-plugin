@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": "src",
     "declaration": true,
+    "esModuleInterop": true,
     "outDir": "lib"
   },
+  "exclude": ["node_modules", "lib"],
   "include": ["src"]
 }
